@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/vaper-ecommerce/static/css/main.d8c0d2dd.css",
+    "main.js": "/vaper-ecommerce/static/js/main.581dda7e.js",
+    "index.html": "/vaper-ecommerce/index.html",
+    "main.d8c0d2dd.css.map": "/vaper-ecommerce/static/css/main.d8c0d2dd.css.map",
+    "main.581dda7e.js.map": "/vaper-ecommerce/static/js/main.581dda7e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8c0d2dd.css",
+    "static/js/main.581dda7e.js"
+  ]
+}
