@@ -1,3 +1,5 @@
+import "./footer.scss";
+
 export const Footer = () => {
   return (
     <footer id="footer" className="bg-dark mt-5">

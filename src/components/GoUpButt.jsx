@@ -1,15 +1,11 @@
 import { FaArrowCircleUp } from "react-icons/fa";
+import { goUp } from "../Helpers/goUp";
+import "../components/styles.scss";
 
 export const GoUp = () => {
-  const goUp = () => {
-    window.scroll({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
   return (
     <div>
-      <button onClick={() => goUp()} className="group sticky-bottom">
+      <button onClick={() => goUp()} className="goup sticky-bottom">
         <FaArrowCircleUp /> GoUp
       </button>
     </div>

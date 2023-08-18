@@ -3,27 +3,28 @@
     color: #fff;
     text-shadow: 1px 3px black;
     margin: 0px auto;
+
     img {
         height: 500px;
     }
+
     p {
         text-align: justify;
         width: 80%;
         margin: 0px auto;
     }
-    a {
-        
-    }
 }
-@media (max-width: 500px) { 
+
+@media (max-width: 500px) {
     #presentation {
         width: 90vw;
+
         img {
             height: 400px;
         }
+
         p {
             width: 90%;
         }
     }
- }
-
+}
