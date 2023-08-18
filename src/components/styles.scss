@@ -1,0 +1,48 @@
+#section {
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+    height: 90vh;
+    
+    color: #fff;
+    text-shadow: 1px 3px black;
+    .perfil img {
+        height: 500px;
+        width: 300px;
+    }
+    .sm  img {
+        height: 70px;
+        width: 70px;
+    }
+    .ornament img {
+        height: 50px;
+    }
+    .row {
+        justify-content: center !important;
+
+    }
+    
+}
+.goup {
+    position: relative;
+    left: 90%;
+    bottom: -30px;
+    border: none;
+    border-radius: 10px;
+    background-color:gold;
+    
+    &:hover {
+        transition: all .9s;
+        transform: scale(1.1);
+
+    }
+}
+
+@media (max-width: 600px){
+    .goup {
+        position: relative;
+        left: 75%;
+        
+        
+    }    
+}

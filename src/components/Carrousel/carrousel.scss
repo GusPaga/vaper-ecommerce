@@ -1,0 +1,73 @@
+#carrousel {
+    position: relative;
+    .carousel-inner{
+        img {
+            max-height: 100vh;
+            object-fit: cover;
+            filter: grayscale(70%);
+        }
+
+    }
+    .overlay {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: #fff;
+        text-shadow: 1px 3px black;
+        height: 100vh;
+        width: 100vw;
+        p {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+        h2 {
+            margin-bottom: 0px;
+        }
+        .cardsButtons{
+            width: 120px;
+            color: #fff;
+            text-decoration-line: none;
+            &:hover{
+                color:black;
+                text-shadow: 1px 1px lightgray;
+                border: none;
+                font-weight: 600;
+                background-color: gold !important;
+            }
+        }
+    }
+    
+}
+@media (max-width: 500px){
+    #carrousel {
+        position: relative;
+        .carousel-inner{
+            img {
+                height: 70vh;
+            }
+        }
+        .overlay {
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            text-shadow: 1px 3px black;
+            height: 100vh;
+            width: 100vw;
+            p {
+                font-size: 15px;
+                margin-top: 10px;
+            }
+            h2 {
+                font-size: 40px;
+                margin-bottom: 0px;
+            }
+            .small {
+                font-size: 40px !important;
+            }
+            .top-50 {
+                top: 35%!important;
+            }
+        }
+        
+    }
+    
+}
