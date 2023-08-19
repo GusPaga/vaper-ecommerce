@@ -1,16 +1,25 @@
 import { Layout } from "./components/Layout/Layout";
-import { Carrousel } from "./components/Carrousel/Carrousel.jsx";
-import { GoUp } from "./components/GoUpButt.jsx";
-import { Cards } from "./components/Cards/Cards.jsx";
+import { Form } from "./components/Form/Form";
+import {
+  BrowserRouter as Browser,
+  Navigate,
+  Route,
+  Routes,
+} from "react-router-dom";
+import { Home } from "./components/Home/Home";
 
 function App() {
   return (
     <div>
-      <Layout>
-        <Carrousel />
-        <Cards />
-        <GoUp />
-      </Layout>
+      <Browser>
+        <Layout>
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/form" element={<Form />} />
+            <Route path="*" element={<Navigate to="/" />} />
+          </Routes>
+        </Layout>
+      </Browser>
     </div>
   );
 }
