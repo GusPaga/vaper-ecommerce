@@ -1,5 +1,10 @@
 import "./carrousel.scss";
 
+import car1 from "../../assets/ancha1.jpg";
+import car2 from "../../assets/ancha2.jpg";
+import car3 from "../../assets/ancha1.jpg";
+import car4 from "../../assets/ancha2.jpg";
+
 export const Carrousel = () => {
   return (
     <section id="carrousel">
@@ -13,40 +18,24 @@ export const Carrousel = () => {
       >
         <div className="carousel-inner">
           <div className="carousel-item active" data-bs-interval="5000">
-            <img
-              src=" https://i.ibb.co/vzSmr0z/carr1.png"
-              className="d-block w-100"
-              alt="carrousel1"
-            />
+            <img src={car1} className="d-block w-100" alt="carrousel1" />
           </div>
           <div className="carousel-item">
-            <img
-              src="https://i.ibb.co/HdsBLDh/carr2.png"
-              className="d-block w-100"
-              alt="carrousel2"
-            />
+            <img src={car2} className="d-block w-100" alt="carrousel2" />
           </div>
           <div className="carousel-item">
-            <img
-              src="https://i.ibb.co/VvdjBvQ/carr3.png"
-              className="d-block w-100"
-              alt="carrousel3"
-            />
+            <img src={car3} className="d-block w-100" alt="carrousel3" />
           </div>
           <div className="carousel-item">
-            <img
-              src="https://i.ibb.co/Bf6FdvC/carr4.png"
-              className="d-block w-100"
-              alt="carrousel3"
-            />
+            <img src={car4} className="d-block w-100" alt="carrousel3" />
           </div>
           <div className="overlay">
             <div className="container">
               <div className="row align-items-center">
                 <div className="col-12 col-md-6 offset-md-3 text-center text-md-right position-absolute top-50 start-50 translate-middle">
-                  <h2>Gustavo Pagano</h2>
-                  <small>Full Stack Developer</small>
-                  <p>
+                  <h2>Style & Vaping</h2>
+                  <small>Productos y sabores de mundo</small>
+                  {/* <p>
                     Soy un entusiasta de la tecnología,
                     <br />
                     me gusta aprender, enseñar y compartir.
@@ -59,7 +48,7 @@ export const Carrousel = () => {
                     <br />
                     <b>FullStack Developer!</b>
                   </p>
-                  <p>Puedes contactarme en mis redes sociales.</p>
+                  <p>Puedes contactarme en mis redes sociales.</p> */}
 
                   <div className="col col-md-6 offset-md-3">
                     <a
@@ -67,14 +56,14 @@ export const Carrousel = () => {
                       className="cardsButtons btn btn-outline-warning mx-2 mt-3 p-1"
                       data-toggle="modal"
                     >
-                      Experiencia
+                      Productos
                     </a>
                     <a
                       href="#footer"
                       className="cardsButtons btn btn-outline-warning mx-2 mt-3 p-1"
                       data-toggle="modal"
                     >
-                      Contactame
+                      Contacto
                     </a>
                   </div>
                 </div>

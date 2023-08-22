@@ -1,19 +1,84 @@
 {
-  "posts": [
+  "products": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "img": "../src/assets/vaperblack.jpeg",
+      "marca": "APV",
+      "precio": 10,
+      "sabor": "absenta",
+      "tamaño": 10,
+      "stock": 20,
+      "oferta": false
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "img": "../src/assets/vaperblack.png",
+      "marca": "APV",
+      "precio": 15,
+      "sabor": "absenta",
+      "tamaño": 30,
+      "stock": 10,
+      "oferta": true
+    },
+    {
+      "id": 3,
+      "img": "../src/assets/vaperblack.png",
+      "marca": "AMBAR",
+      "precio": 15,
+      "sabor": "almendra",
+      "tamaño": 50,
+      "stock": 20,
+      "oferta": true
+    },
+    {
+      "id": 4,
+      "img": "../src/assets/vaperblack.png",
+      "marca": "ATMOS",
+      "precio": 15,
+      "sabor": "fresa",
+      "tamaño": 10,
+      "stock": 20,
+      "oferta": true
+    },
+    {
+      "id": 5,
+      "img": "../src/assets/vaperblack.png",
+      "marca": "APV",
+      "precio": 10,
+      "sabor": "absenta",
+      "tamaño": 10,
+      "stock": 20,
+      "oferta": false
+    },
+    {
+      "id": 6,
+      "img": "../src/assets/vaperblack.png",
+      "marca": "APV",
+      "precio": 15,
+      "sabor": "absenta",
+      "tamaño": 30,
+      "stock": 10,
+      "oferta": true
+    },
+    {
+      "id": 7,
+      "img": "../src/assets/vaperblack.png",
+      "marca": "AMBAR",
+      "precio": 15,
+      "sabor": "almendra",
+      "tamaño": 50,
+      "stock": 20,
+      "oferta": true
+    },
+    {
+      "id": 8,
+      "img": "../src/assets/vaperblack.png",
+      "marca": "ATMOS",
+      "precio": 15,
+      "sabor": "fresa",
+      "tamaño": 10,
+      "stock": 20,
+      "oferta": true
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import "./navbar.scss";
 import "../../index.scss";
+import { Link } from "react-router-dom";
 
 export const NavBar = () => {
   return (
@@ -33,18 +34,25 @@ export const NavBar = () => {
                 aria-current="page"
                 href="#carrousel"
               >
-                Presentación
+                Inicio
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link " aria-current="page" href="#cards">
-                Proyectos
+                Productos
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link " aria-current="page" href="#footer">
-                Redes Sociales
+                Contactanos
               </a>
+            </li>
+            <li className="nav-item">
+              <Link to={"/form"}>
+                <a className="nav-link " aria-current="page" href="#footer">
+                  Fromulario
+                </a>
+              </Link>
             </li>
           </ul>
         </div>
