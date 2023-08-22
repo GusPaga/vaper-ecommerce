@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/vaper-ecommerce/static/css/main.dd661843.css",
-    "main.js": "/vaper-ecommerce/static/js/main.0cd38c0d.js",
+    "main.css": "/vaper-ecommerce/static/css/main.63ddca74.css",
+    "main.js": "/vaper-ecommerce/static/js/main.79da4fec.js",
+    "static/media/ancha2.jpg": "/vaper-ecommerce/static/media/ancha2.40d037cc094aa1f3455b.jpg",
+    "static/media/ancha1.jpg": "/vaper-ecommerce/static/media/ancha1.30d7acff31d4223b0d0c.jpg",
     "index.html": "/vaper-ecommerce/index.html",
-    "main.dd661843.css.map": "/vaper-ecommerce/static/css/main.dd661843.css.map",
-    "main.0cd38c0d.js.map": "/vaper-ecommerce/static/js/main.0cd38c0d.js.map"
+    "main.63ddca74.css.map": "/vaper-ecommerce/static/css/main.63ddca74.css.map",
+    "main.79da4fec.js.map": "/vaper-ecommerce/static/js/main.79da4fec.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd661843.css",
-    "static/js/main.0cd38c0d.js"
+    "static/css/main.63ddca74.css",
+    "static/js/main.79da4fec.js"
   ]
 }
