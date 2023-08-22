@@ -4,10 +4,10 @@ import { GoUp } from "../../components/GoUpButt";
 
 export const Home = () => {
   return (
-    <div>
+    <>
       <Carrousel />
       <Cards />
       <GoUp />
-    </div>
+    </>
   );
 };

@@ -6,7 +6,7 @@ export const GoUp = () => {
   return (
     <div>
       <button onClick={() => goUp()} className="goup sticky-bottom">
-        <FaArrowCircleUp /> GoUp
+        <FaArrowCircleUp /> Inicio
       </button>
     </div>
   );
